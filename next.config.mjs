@@ -11,8 +11,6 @@ const nextConfig = {
   },
   output: 'export',
   trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/minidonas-riohacha' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/minidonas-riohacha' : '',
 }
 
 export default nextConfig
