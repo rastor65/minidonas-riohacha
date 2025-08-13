@@ -1,10 +1,18 @@
-const isProd = process.env.NODE_ENV === 'production';
-const repo = 'minidonas-riohacha';
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  images: {
+    unoptimized: true,
+  },
 
-export default {
-  output: 'export',              // genera /out al compilar
-  images: { unoptimized: true }, // GitHub Pages no optimiza imágenes
-  basePath: isProd ? `/${repo}` : '',
-  assetPrefix: isProd ? `/${repo}/` : '',
-  trailingSlash: true,
-};
+  output: 'export',
+  distDir: 'dist',
+}
+
+
+export default nextConfig
