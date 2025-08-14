@@ -17,7 +17,7 @@ const sourceSans = Source_Sans_Pro({
 })
 
 export const metadata: Metadata = {
-  title: "Mini Donas Riohacha - Sabor del Caribe",
+  title: "Sweet Ana",
   description: "Mini donas artesanales hechas con amor en Riohacha. Descubre el sabor del Caribe en cada bocado.",
   generator: "v0.app",
 }
