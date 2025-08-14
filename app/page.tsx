@@ -155,7 +155,7 @@ export default function MiniDonasRiohacha() {
       {/* Contact Section */}
       <section className="py-16 px-4 bg-gradient-to-r from-pink-500 to-purple-500">
         <div className="max-w-4xl mx-auto text-center text-white">
-          <h3 className="font-serif text-4xl font-bold mb-8">¡Visítanos en Riohacha!</h3>
+          <h3 className="font-serif text-4xl font-bold mb-8">¡Haz tu pedido en Riohacha!</h3>
           <div className="grid md:grid-cols-3 gap-8 mb-10">
             <div className="flex flex-col items-center">
               <MapPin className="w-8 h-8 mb-3" />
@@ -208,7 +208,8 @@ export default function MiniDonasRiohacha() {
             Cada dona cuenta una historia, hecha con ingredientes locales y un toque caribeño.
           </p>
           <p className="font-sans text-sm text-pink-200">
-            © 2024 Mini Donas Riohacha. Todos los derechos reservados. Hecho con ❤️ en La Guajira.
+            © 2025 AlfaCode. Todos los derechos reservados. <br>
+            Hecho con ❤️ en La Guajira.
           </p>
         </div>
       </footer>
