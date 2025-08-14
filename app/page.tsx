@@ -208,7 +208,9 @@ export default function MiniDonasRiohacha() {
             Cada dona cuenta una historia, hecha con ingredientes locales y un toque caribeño.
           </p>
           <p className="font-sans text-sm text-pink-200">
-            © 2025 AlfaCode. Todos los derechos reservados. <br>
+            © 2025 AlfaCode. Todos los derechos reservados.
+          </p>
+          <p className="font-sans text-sm text-pink-200">
             Hecho con ❤️ en La Guajira.
           </p>
         </div>
