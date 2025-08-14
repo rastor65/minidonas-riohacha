@@ -12,7 +12,7 @@ export default function MiniDonasRiohacha() {
             <div className="w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-lg">🍩</span>
             </div>
-            <h1 className="font-serif text-2xl font-bold text-pink-800">Mini Donas Riohacha</h1>
+            <h1 className="font-serif text-2xl font-bold text-pink-800">Sweet Ana</h1>
           </div>
           <div className="hidden md:flex items-center gap-6 text-sm text-gray-600">
             <div className="flex items-center gap-1">
@@ -158,8 +158,7 @@ export default function MiniDonasRiohacha() {
           <h3 className="font-serif text-4xl font-bold mb-8">¡Haz tu pedido en Riohacha!</h3>
           <div className="grid md:grid-cols-3 gap-8 mb-10">
             <div className="flex flex-col items-center">
-              <MapPin className="w-8 h-8 mb-3" />
-              <h4 className="font-serif text-xl font-bold mb-2">Ubicación</h4>
+              <h4 className="font-serif text-xl font-bold mb-2">Sweet Ana</h4>
               <p className="font-sans">
                 Centro de Riohacha
                 <br />
