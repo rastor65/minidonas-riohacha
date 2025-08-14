@@ -18,7 +18,7 @@
 // export default nextConfig
 
 const isProd = process.env.NODE_ENV === 'production';
-const repo = 'minidonas-riohacha'; // nombre exacto de tu repo
+const repo = 'minidonas-riohacha';
 
 export default {
   output: 'export',              // genera /out automáticamente
