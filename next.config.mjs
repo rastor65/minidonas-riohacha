@@ -22,7 +22,7 @@ const repo = 'minidonas-riohacha';
 export default {
   output: 'export',              // genera /out automáticamente
   images: { unoptimized: true }, // evitar optimización en server
-  basePath: isProd ? `/${repo}` : '',
-  assetPrefix: isProd ? `/${repo}/` : '',
+  // basePath: isProd ? `/${repo}` : '',
+  // assetPrefix: isProd ? `/${repo}/` : '',
   trailingSlash: true,
 };
